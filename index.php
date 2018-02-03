@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>WiFi2000</title>
-        <meta name="description" content="WiFI2000 Description text">
+        <meta name="description" content="WiFi2000 Description text">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- <link rel="manifest" href="site.webmanifest"> -->
