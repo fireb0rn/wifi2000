@@ -1,15 +1,25 @@
+<?php
+// if (!empty($_GET)
+//     && $rawParams = base64_decode(array_keys($_GET)[0])
+//     && $params = json_decode($rawParams, true)) 
+// {
+//     $redirectUrl = isset($params['url']) && $params['url'] ? urldecode($params['url']) : 'https://www.google.ca';
+
+//     $trialStandardUrl = $params['path'] . '?dst=' . $redirectUrl . '&username=T-' . $params['mac'];
+//     $trialAppleUrl = $params['path'] . '?username=T-' . $params['mac']; 
+// } else {
+//     echo '<p>Welcome to APW Pilot Portal!</p>';  
+//     exit;
+// }
+?>
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>WiFi2000</title>
+        <title>Free WiFi by IP Connect</title>
         <meta name="description" content="WiFi2000 Description text">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- <link rel="manifest" href="site.webmanifest"> -->
-        <!-- <link rel="apple-touch-icon" href="icon.png"> -->
-        <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -24,7 +34,7 @@
         <!-- <script src="js/vendor/modernizr-3.5.0.min.js"></script> -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+        <!-- <script src="js/plugins.js"></script> -->
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
