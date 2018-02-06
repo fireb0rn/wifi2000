@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/fireb0rn/wifi2000#readme",
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "gulp": "^3.9.1"
   }
 }
