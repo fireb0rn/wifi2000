@@ -1,6 +1,10 @@
 body
   background-color: #eeeef3
 
+@font-face 
+  font-family: 'animals';
+  src: url('/fonts/animals.eot');
+
 header
   // display: block;
 
@@ -234,7 +238,7 @@ header
             width: 180px
             margin: 20px auto
 
-      #step1c
+      #step1c, #step2c
         display: none
         margin: 0 auto
         background-color: white
@@ -263,8 +267,36 @@ header
       #step2b
         display: none
         margin: 0 auto
-        background-color: white
-        padding: 10px 0
+        padding: 5px 0
+
+        table
+          background-color: white 
+          width: 300px
+
+        .icon
+          font-size: 40px
+          text-align: center
+          padding: 5px
+
+          &.picker
+            img
+              display: block
+              margin: 0 auto
+              vertical-align: middle
+              margin-top: -40px
+              height: 40px
+              weight: 40px
+
+        .buttonContinue
+          img 
+            display: block
+            width: 180px
+            margin: 20px auto  
+
+      #step2c
+        display: none
+        margin: 0 auto
+        padding: 5px 0                    
 
 footer
   p
@@ -307,8 +339,9 @@ footer
           font-size: 40px
 
   #content
-    #mainWrapper
-      min-height: 500px
+    table
+      &#mainWrapper
+        min-height: 500px
 
       #workArea
         // width: 730px        
@@ -355,7 +388,7 @@ footer
             img 
               width: 283px     
 
-        #step1c
+        #step1c, #step2c
           // display: none
           // display: block
           margin: 0 auto    
@@ -380,7 +413,20 @@ footer
               display: block
               margin: 0 auto
               height: 71px
-              width: auto                   
+              width: auto      
+
+        #step2b
+          padding: 10px 0
+
+          .icon
+            font-size: 80px 
+            padding: 10px   
+
+            &.picker
+              img
+                margin-top: -70px   
+                height: 69px
+                weight: 69px                          
 
   footer
     table

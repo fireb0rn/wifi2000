@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/loading-bar.css">
+        <link rel="stylesheet" href="css/icons-animals.css">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -124,21 +125,33 @@
 
                             <table>
                                 <tr>
-                                    <td><div class="animal-elephant"></div></td>
-                                    <td><div class="animal-horse"></div></td>
-                                    <td><div class="animal-cat"></div></td>
-                                    <td><div class="animal-squirrel"></div></td>
+                                    <td><div class="icon icon-elephant"></div></td>
+                                    <td><div class="icon icon-horse"></div></td>
+                                    <td><div class="icon icon-cat"></div></td>
+                                    <td><div class="icon icon-squirrel"></div></td>
                                 </tr>
                                 <tr>
-                                    <td><div class="animal-bull"></div></td>
-                                    <td><div class="animal-giraffe"></div></td>
-                                    <td><div class="animal-pig"></div></td>
-                                    <td><div class="animal-chicken"></div></td>
+                                    <td><div class="icon icon-bull"></div></td>
+                                    <td><div class="icon icon-giraffe"></div></td>
+                                    <td><div class="icon icon-pig"></div></td>
+                                    <td><div class="icon icon-chicken"></div></td>
                                 </tr>
                             </table>
 
                             <div class="buttonContinue">
                                 <a href="javascript:void(0)"><img src="img/button_continue_full.png" alt="Continue" /></a>
+                            </div>
+                        </div>
+
+                        <div id="step2c">
+                            <div class="iconDanger">
+                                <img src="img/icon_danger_full.png" alt="Icon Danger" />
+                            </div>
+
+                            <p class="title">Please choose an ANIMAL</p>
+
+                            <div class="buttonOk">
+                                <a href="javascript:void(0)"><img src="img/button_ok_full.png" alt="Ok" /></a>
                             </div>
                         </div>
 

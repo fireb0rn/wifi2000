@@ -2,6 +2,11 @@ body {
   background-color: #eeeef3;
 }
 
+@font-face {
+  font-family: 'animals';
+  src: url("/fonts/animals.eot");
+}
+
 header table {
   max-width: 1130px;
   margin: 0 auto;
@@ -259,27 +264,27 @@ header span {
   margin: 20px auto;
 }
 
-#content table #workArea #step1c {
+#content table #workArea #step1c, #content table #workArea #step2c {
   display: none;
   margin: 0 auto;
   background-color: white;
   padding: 10px 0;
 }
 
-#content table #workArea #step1c p.title {
+#content table #workArea #step1c p.title, #content table #workArea #step2c p.title {
   text-align: center;
   font-size: 18px;
   margin: 20px auto;
 }
 
-#content table #workArea #step1c .iconDanger img {
+#content table #workArea #step1c .iconDanger img, #content table #workArea #step2c .iconDanger img {
   display: block;
   margin: 0 auto;
   height: 89px;
   width: auto;
 }
 
-#content table #workArea #step1c .buttonOk img {
+#content table #workArea #step1c .buttonOk img, #content table #workArea #step2c .buttonOk img {
   display: block;
   margin: 0 auto;
   height: 39px;
@@ -289,8 +294,39 @@ header span {
 #content table #workArea #step2b {
   display: none;
   margin: 0 auto;
+  padding: 5px 0;
+}
+
+#content table #workArea #step2b table {
   background-color: white;
-  padding: 10px 0;
+  width: 300px;
+}
+
+#content table #workArea #step2b .icon {
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+}
+
+#content table #workArea #step2b .icon.picker img {
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+  margin-top: -40px;
+  height: 40px;
+  weight: 40px;
+}
+
+#content table #workArea #step2b .buttonContinue img {
+  display: block;
+  width: 180px;
+  margin: 20px auto;
+}
+
+#content table #workArea #step2c {
+  display: none;
+  margin: 0 auto;
+  padding: 5px 0;
 }
 
 footer p {
@@ -335,67 +371,79 @@ footer table td.col1 p, footer table td.col3 p {
   header table .textCol span {
     font-size: 40px;
   }
-  #content #mainWrapper {
+  #content table#mainWrapper {
     min-height: 500px;
   }
-  #content #mainWrapper #workArea {
+  #content table #workArea {
     vertical-align: middle;
     min-height: 510px;
   }
-  #content #mainWrapper #workArea #info {
+  #content table #workArea #info {
     box-sizing: border-box;
     min-height: 450px;
     max-width: 680px;
     margin: 10px auto;
   }
-  #content #mainWrapper #workArea #info p {
+  #content table #workArea #info p {
     font-size: 16px;
   }
-  #content #mainWrapper #workArea #step1a .progressBar p.title, #content #mainWrapper #workArea #step2a .progressBar p.title {
+  #content table #workArea #step1a .progressBar p.title, #content table #workArea #step2a .progressBar p.title {
     display: block;
   }
-  #content #mainWrapper #workArea #step1b table, #content #mainWrapper #workArea #step2b table {
+  #content table #workArea #step1b table, #content table #workArea #step2b table {
     background-color: none;
     padding: 0;
   }
-  #content #mainWrapper #workArea #step1b .sphere, #content #mainWrapper #workArea #step2b .sphere {
+  #content table #workArea #step1b .sphere, #content table #workArea #step2b .sphere {
     width: 115px;
     height: 115px;
   }
-  #content #mainWrapper #workArea #step1b .sphere.picker img, #content #mainWrapper #workArea #step2b .sphere.picker img {
+  #content table #workArea #step1b .sphere.picker img, #content table #workArea #step2b .sphere.picker img {
     margin-top: 20px;
     height: 69px;
     weight: 69px;
   }
-  #content #mainWrapper #workArea #step1b p.title, #content #mainWrapper #workArea #step2b p.title {
+  #content table #workArea #step1b p.title, #content table #workArea #step2b p.title {
     margin-bottom: 20px;
     font-size: 25px;
     color: black;
   }
-  #content #mainWrapper #workArea #step1b .buttonContinue img, #content #mainWrapper #workArea #step2b .buttonContinue img {
+  #content table #workArea #step1b .buttonContinue img, #content table #workArea #step2b .buttonContinue img {
     width: 283px;
   }
-  #content #mainWrapper #workArea #step1c {
+  #content table #workArea #step1c, #content table #workArea #step2c {
     margin: 0 auto;
     background-color: none;
     padding: 0;
   }
-  #content #mainWrapper #workArea #step1c p.title {
+  #content table #workArea #step1c p.title, #content table #workArea #step2c p.title {
     text-align: center;
     font-size: 25px;
     margin: 40px auto;
   }
-  #content #mainWrapper #workArea #step1c .iconDanger img {
+  #content table #workArea #step1c .iconDanger img, #content table #workArea #step2c .iconDanger img {
     display: block;
     margin: 0 auto;
     height: 160px;
     width: auto;
   }
-  #content #mainWrapper #workArea #step1c .buttonOk img {
+  #content table #workArea #step1c .buttonOk img, #content table #workArea #step2c .buttonOk img {
     display: block;
     margin: 0 auto;
     height: 71px;
     width: auto;
+  }
+  #content table #workArea #step2b {
+    padding: 10px 0;
+  }
+  #content table #workArea #step2b .icon {
+    font-size: 80px;
+    padding: 10px;
+  }
+  #content table #workArea #step2b .icon.picker img {
+    margin-top: -70px;
+    height: 69px;
+    weight: 69px;
   }
   footer table td.col2 {
     width: 40%;

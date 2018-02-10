@@ -90,4 +90,54 @@ $(document).ready(function() {
         $("#step1b").addClass("active");
     });
 
+    $("#step2b .icon").click(function() {
+        if ($(this).hasClass("picker")) {
+            $(this).removeClass("picker");
+            $(this).html("");
+        } else {
+            $(".icon.picker").each(function() {
+                if ($(this).hasClass("picker")) {
+                    $(this).removeClass("picker");
+                    $(this).html("");
+                }
+            });
+            $(this).addClass("picker");
+            $(this).html('<img src="img/picker_full.png" alt="Picker" />');
+        }
+    });
+
+    $("#step2b .buttonContinue").click(function() {
+        if ($("#step2b .icon.picker").length) {
+            $("#step2b").removeClass("active");
+            $("#step3a").addClass("active");
+
+            // var bar = new ldBar("#step2a .progressBarContainer");
+            // $("#step2a .progressBarContainer .lbBar").addClass("label-center");
+            //
+            // value = 0;
+            // var timer = setInterval(function () {
+            //     value += 100 / (step2aTimer / second);
+            //     var bar = document.getElementsByClassName("ldBar").item(1).ldBar;
+            //     bar.set(value);
+            // }, second);
+            //
+            // setTimeout(function() {
+            //     clearInterval(timer);
+            //     $("#step2a").removeClass("holded");
+            //     $("#step2a").removeClass("active");
+            //     $("#info").removeClass("active");
+            //     $("#step2b").addClass("active");
+            // }, step2aTimer + second);
+        } else {
+            $("#step2b").addClass("hidden");
+            $("#step2c").addClass("active");
+        }
+    });
+
+    $("#step2c .buttonOk").click(function() {
+        $("#step2c").removeClass("active");
+        $("#step2b").removeClass("hidden");
+        $("#step2b").addClass("active");
+    });
+
 });

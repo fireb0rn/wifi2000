@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'animals';
+    src:  url('../fonts/animals.eot?47cpdr');
+    src:  url('../fonts/animals.eot?47cpdr#iefix') format('embedded-opentype'),
+    url('../fonts/animals.ttf?47cpdr') format('truetype'),
+    url('../fonts/animals.woff?47cpdr') format('woff'),
+    url('../fonts/animals.svg?47cpdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'animals' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bull:before {
+    content: "\e900";
+}
+.icon-cat:before {
+    content: "\e901";
+}
+.icon-chicken:before {
+    content: "\e902";
+}
+.icon-elephant:before {
+    content: "\e903";
+}
+.icon-giraffe:before {
+    content: "\e904";
+}
+.icon-horse:before {
+    content: "\e905";
+}
+.icon-pig:before {
+    content: "\e906";
+}
+.icon-squirrel:before {
+    content: "\e907";
+}
