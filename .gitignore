@@ -1,5 +1,9 @@
+# IDE
+.idea
+wifi2000.code-workspace
+
 .DS_Store
 node_modules
 # package-lock.json
-wifi2000.code-workspace
+
 

@@ -1,0 +1,424 @@
+body {
+  background-color: #eeeef3;
+}
+
+header table {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+header table td {
+  vertical-align: middle;
+}
+
+header table .logoCol {
+  width: 15%;
+}
+
+header table .logoCol img {
+  margin-top: 5px;
+  max-width: 100%;
+  min-width: 80px;
+}
+
+header table .textCol {
+  width: 70%;
+  text-align: center;
+}
+
+header table #iconInfo {
+  width: 15%;
+  text-align: right;
+}
+
+header table #iconInfo img {
+  max-width: 100%;
+  min-width: 37px;
+}
+
+header img {
+  margin: 3px;
+}
+
+header span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: bold;
+  font-size: 22px;
+  color: #999999;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner img {
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.sideBanner img {
+  vertical-align: middle;
+}
+
+#banner1, #banner2, #banner3, #banner4, #banner8, #banner9 {
+  display: none;
+}
+
+#banner1 img, #banner2 img {
+  width: 738px;
+}
+
+#banner5 {
+  margin: 5px 0 10px 0;
+}
+
+#banner6, #banner7 {
+  margin: 10px 0;
+}
+
+.bg-blue {
+  background-color: #006fc0;
+}
+
+.bg-yellow {
+  background-color: #ffff01;
+}
+
+.bg-red {
+  background-color: #fe0000;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-green {
+  background-color: #00af50;
+}
+
+.bg-orange {
+  background-color: #ff6600;
+}
+
+.bg-purple {
+  background-color: #7030a2;
+}
+
+.bg-turquoise {
+  background-color: #01ffff;
+}
+
+.sphere {
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 500%;
+  position: relative;
+  display: inline-block;
+  margin: 5%;
+}
+
+.sphere::after {
+  background-color: rgba(255, 255, 255, 0.3);
+  content: '';
+  height: 45%;
+  width: 12%;
+  position: absolute;
+  top: 4%;
+  left: 15%;
+  border-radius: 50%;
+  transform: rotate(40deg);
+}
+
+#content {
+  display: block;
+}
+
+#content table {
+  margin: 0 auto;
+}
+
+#content table .row2 {
+  height: 90px;
+}
+
+#content table #workArea .active {
+  display: block !important;
+}
+
+#content table #workArea .hidden, #content table #workArea .holded {
+  display: none !important;
+}
+
+#content table #workArea #info {
+  display: none;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 15px 10px 5px 10px;
+  border: 1px solid #717880;
+  max-width: 300px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+#content table #workArea #info .item {
+  margin-bottom: 15px;
+}
+
+#content table #workArea #info .item p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#content table #workArea #info .item p.title {
+  font-weight: bold;
+  color: #717880;
+  margin-bottom: 5px;
+}
+
+#content table #workArea #info .item p.description {
+  display: none;
+  font-style: normal;
+  color: #717880;
+}
+
+#content table #workArea #info .item p.visible {
+  display: block;
+}
+
+#content table #workArea #step1a, #content table #workArea #step2a {
+  display: none;
+}
+
+#content table #workArea #step1a .progressBar, #content table #workArea #step2a .progressBar {
+  margin: 0 auto;
+}
+
+#content table #workArea #step1a .progressBar p, #content table #workArea #step2a .progressBar p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 23px;
+  color: #333333;
+}
+
+#content table #workArea #step1a .progressBar p.title, #content table #workArea #step2a .progressBar p.title {
+  display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+#content table #workArea #step1a .progressBar div.ldBar, #content table #workArea #step2a .progressBar div.ldBar {
+  display: block;
+  margin: 0 auto;
+  width: 300px !important;
+  height: 30px !important;
+}
+
+#content table #workArea #step1b, #content table #workArea #step2b {
+  display: none;
+  margin: 0 auto;
+}
+
+#content table #workArea #step1b table, #content table #workArea #step2b table {
+  background-color: white;
+  padding-right: 5px;
+}
+
+#content table #workArea #step1b .sphere, #content table #workArea #step2b .sphere {
+  width: 60px;
+  height: 60px;
+}
+
+#content table #workArea #step1b .sphere.picker img, #content table #workArea #step2b .sphere.picker img {
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+  margin-top: 10px;
+  height: 40px;
+  weight: 40px;
+}
+
+#content table #workArea #step1b p.title, #content table #workArea #step2b p.title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: gray;
+}
+
+#content table #workArea #step1b .buttonContinue img, #content table #workArea #step2b .buttonContinue img {
+  display: block;
+  width: 180px;
+  margin: 20px auto;
+}
+
+#content table #workArea #step1c {
+  display: none;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px 0;
+}
+
+#content table #workArea #step1c p.title {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px auto;
+}
+
+#content table #workArea #step1c .iconDanger img {
+  display: block;
+  margin: 0 auto;
+  height: 89px;
+  width: auto;
+}
+
+#content table #workArea #step1c .buttonOk img {
+  display: block;
+  margin: 0 auto;
+  height: 39px;
+  width: auto;
+}
+
+#content table #workArea #step2b {
+  display: none;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px 0;
+}
+
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999999;
+  font-size: 12px;
+  text-align: center;
+  margin: 5px auto;
+}
+
+footer table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+footer table td {
+  text-align: center;
+}
+
+footer table td.col2 {
+  width: 90%;
+}
+
+footer table td.col1, footer table td.col3 {
+  width: 5%;
+}
+
+footer table td.col1 p, footer table td.col3 p {
+  display: none;
+}
+
+@media screen and (min-width: 730px) {
+  body {
+    background-color: #ffffff;
+  }
+  #banner1, #banner2 {
+    display: block;
+  }
+  #banner5, #banner6, #banner7 {
+    display: none;
+  }
+  header table .textCol span {
+    font-size: 40px;
+  }
+  #content #mainWrapper {
+    min-height: 500px;
+  }
+  #content #mainWrapper #workArea {
+    vertical-align: middle;
+    min-height: 510px;
+  }
+  #content #mainWrapper #workArea #info {
+    box-sizing: border-box;
+    min-height: 450px;
+    max-width: 680px;
+    margin: 10px auto;
+  }
+  #content #mainWrapper #workArea #info p {
+    font-size: 16px;
+  }
+  #content #mainWrapper #workArea #step1a .progressBar p.title, #content #mainWrapper #workArea #step2a .progressBar p.title {
+    display: block;
+  }
+  #content #mainWrapper #workArea #step1b table, #content #mainWrapper #workArea #step2b table {
+    background-color: none;
+    padding: 0;
+  }
+  #content #mainWrapper #workArea #step1b .sphere, #content #mainWrapper #workArea #step2b .sphere {
+    width: 115px;
+    height: 115px;
+  }
+  #content #mainWrapper #workArea #step1b .sphere.picker img, #content #mainWrapper #workArea #step2b .sphere.picker img {
+    margin-top: 20px;
+    height: 69px;
+    weight: 69px;
+  }
+  #content #mainWrapper #workArea #step1b p.title, #content #mainWrapper #workArea #step2b p.title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: black;
+  }
+  #content #mainWrapper #workArea #step1b .buttonContinue img, #content #mainWrapper #workArea #step2b .buttonContinue img {
+    width: 283px;
+  }
+  #content #mainWrapper #workArea #step1c {
+    margin: 0 auto;
+    background-color: none;
+    padding: 0;
+  }
+  #content #mainWrapper #workArea #step1c p.title {
+    text-align: center;
+    font-size: 25px;
+    margin: 40px auto;
+  }
+  #content #mainWrapper #workArea #step1c .iconDanger img {
+    display: block;
+    margin: 0 auto;
+    height: 160px;
+    width: auto;
+  }
+  #content #mainWrapper #workArea #step1c .buttonOk img {
+    display: block;
+    margin: 0 auto;
+    height: 71px;
+    width: auto;
+  }
+  footer table td.col2 {
+    width: 40%;
+  }
+  footer table td.col1, footer table td.col3 {
+    width: 30%;
+  }
+  footer table td.col1 p, footer table td.col3 p {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  #banner3, #banner4 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1330px) {
+  #banner3, #banner4 {
+    display: none;
+  }
+  #banner8, #banner9 {
+    display: block;
+  }
+}
