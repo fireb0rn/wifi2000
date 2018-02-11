@@ -7,6 +7,70 @@ body {
   src: url("/fonts/animals.eot");
 }
 
+.blue {
+  color: #006fc0;
+}
+
+.yellow {
+  color: #ffff01;
+}
+
+.red {
+  color: #fe0000;
+}
+
+.black {
+  color: black;
+}
+
+.green {
+  color: #00af50;
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.purple {
+  color: #7030a2;
+}
+
+.turquoise {
+  color: #01ffff;
+}
+
+.bg-blue {
+  background-color: #006fc0;
+}
+
+.bg-yellow {
+  background-color: #ffff01;
+}
+
+.bg-red {
+  background-color: #fe0000;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-green {
+  background-color: #00af50;
+}
+
+.bg-orange {
+  background-color: #ff6600;
+}
+
+.bg-purple {
+  background-color: #7030a2;
+}
+
+.bg-turquoise {
+  background-color: #01ffff;
+}
+
 header table {
   max-width: 1130px;
   margin: 0 auto;
@@ -83,38 +147,6 @@ header span {
 
 #banner6, #banner7 {
   margin: 10px 0;
-}
-
-.bg-blue {
-  background-color: #006fc0;
-}
-
-.bg-yellow {
-  background-color: #ffff01;
-}
-
-.bg-red {
-  background-color: #fe0000;
-}
-
-.bg-black {
-  background-color: black;
-}
-
-.bg-green {
-  background-color: #00af50;
-}
-
-.bg-orange {
-  background-color: #ff6600;
-}
-
-.bg-purple {
-  background-color: #7030a2;
-}
-
-.bg-turquoise {
-  background-color: #01ffff;
 }
 
 .sphere {
@@ -196,15 +228,15 @@ header span {
   display: block;
 }
 
-#content table #workArea #step1a, #content table #workArea #step2a {
+#content table #workArea #step1a, #content table #workArea #step2a, #content table #workArea #step3a {
   display: none;
 }
 
-#content table #workArea #step1a .progressBar, #content table #workArea #step2a .progressBar {
+#content table #workArea #step1a .progressBar, #content table #workArea #step2a .progressBar, #content table #workArea #step3a .progressBar {
   margin: 0 auto;
 }
 
-#content table #workArea #step1a .progressBar p, #content table #workArea #step2a .progressBar p {
+#content table #workArea #step1a .progressBar p, #content table #workArea #step2a .progressBar p, #content table #workArea #step3a .progressBar p {
   text-align: center;
   margin: 0;
   padding: 0;
@@ -212,36 +244,36 @@ header span {
   color: #333333;
 }
 
-#content table #workArea #step1a .progressBar p.title, #content table #workArea #step2a .progressBar p.title {
+#content table #workArea #step1a .progressBar p.title, #content table #workArea #step2a .progressBar p.title, #content table #workArea #step3a .progressBar p.title {
   display: none;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
   font-size: 25px;
 }
 
-#content table #workArea #step1a .progressBar div.ldBar, #content table #workArea #step2a .progressBar div.ldBar {
+#content table #workArea #step1a .progressBar div.ldBar, #content table #workArea #step2a .progressBar div.ldBar, #content table #workArea #step3a .progressBar div.ldBar {
   display: block;
   margin: 0 auto;
   width: 300px !important;
   height: 30px !important;
 }
 
-#content table #workArea #step1b, #content table #workArea #step2b {
+#content table #workArea #step1b, #content table #workArea #step2b, #content table #workArea #step3b {
   display: none;
   margin: 0 auto;
 }
 
-#content table #workArea #step1b table, #content table #workArea #step2b table {
+#content table #workArea #step1b table, #content table #workArea #step2b table, #content table #workArea #step3b table {
   background-color: white;
   padding-right: 5px;
 }
 
-#content table #workArea #step1b .sphere, #content table #workArea #step2b .sphere {
+#content table #workArea #step1b .sphere, #content table #workArea #step2b .sphere, #content table #workArea #step3b .sphere {
   width: 60px;
   height: 60px;
 }
 
-#content table #workArea #step1b .sphere.picker img, #content table #workArea #step2b .sphere.picker img {
+#content table #workArea #step1b .sphere.picker img, #content table #workArea #step2b .sphere.picker img, #content table #workArea #step3b .sphere.picker img {
   display: block;
   margin: 0 auto;
   vertical-align: middle;
@@ -250,7 +282,7 @@ header span {
   weight: 40px;
 }
 
-#content table #workArea #step1b p.title, #content table #workArea #step2b p.title {
+#content table #workArea #step1b p.title, #content table #workArea #step2b p.title, #content table #workArea #step3b p.title {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 10px;
   font-size: 18px;
@@ -258,33 +290,33 @@ header span {
   color: gray;
 }
 
-#content table #workArea #step1b .buttonContinue img, #content table #workArea #step2b .buttonContinue img {
+#content table #workArea #step1b .buttonContinue img, #content table #workArea #step2b .buttonContinue img, #content table #workArea #step3b .buttonContinue img {
   display: block;
   width: 180px;
   margin: 20px auto;
 }
 
-#content table #workArea #step1c, #content table #workArea #step2c {
+#content table #workArea #step1c, #content table #workArea #step2c, #content table #workArea #step3c {
   display: none;
   margin: 0 auto;
   background-color: white;
   padding: 10px 0;
 }
 
-#content table #workArea #step1c p.title, #content table #workArea #step2c p.title {
+#content table #workArea #step1c p.title, #content table #workArea #step2c p.title, #content table #workArea #step3c p.title {
   text-align: center;
   font-size: 18px;
   margin: 20px auto;
 }
 
-#content table #workArea #step1c .iconDanger img, #content table #workArea #step2c .iconDanger img {
+#content table #workArea #step1c .iconDanger img, #content table #workArea #step2c .iconDanger img, #content table #workArea #step3c .iconDanger img {
   display: block;
   margin: 0 auto;
   height: 89px;
   width: auto;
 }
 
-#content table #workArea #step1c .buttonOk img, #content table #workArea #step2c .buttonOk img {
+#content table #workArea #step1c .buttonOk img, #content table #workArea #step2c .buttonOk img, #content table #workArea #step3c .buttonOk img {
   display: block;
   margin: 0 auto;
   height: 39px;
@@ -327,6 +359,49 @@ header span {
   display: none;
   margin: 0 auto;
   padding: 5px 0;
+}
+
+#content table #workArea #step3b p.title {
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+#content table #workArea #step3b p.checkboxLine, #content table #workArea #step3b p.checkboxLineMobile {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+#content table #workArea #step3b p.checkboxLine {
+  display: none;
+}
+
+#content table #workArea #step3b p.checkboxLineMobile {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+#content table #workArea #step3b .animal {
+  font-size: 40px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+#content table #workArea #step3b iframe {
+  display: none;
+  padding: 10px 0 0 10px;
+  margin: 20px auto;
+  border-width: 1px;
+  width: 300px;
+  height: 150px;
+}
+
+#content table #workArea #step3b .buttonAccept img {
+  display: block;
+  width: 250px;
+  height: auto;
+  margin: 10px auto;
 }
 
 footer p {
@@ -387,47 +462,47 @@ footer table td.col1 p, footer table td.col3 p {
   #content table #workArea #info p {
     font-size: 16px;
   }
-  #content table #workArea #step1a .progressBar p.title, #content table #workArea #step2a .progressBar p.title {
+  #content table #workArea #step1a .progressBar p.title, #content table #workArea #step2a .progressBar p.title, #content table #workArea #step3a .progressBar p.title {
     display: block;
   }
-  #content table #workArea #step1b table, #content table #workArea #step2b table {
+  #content table #workArea #step1b table, #content table #workArea #step2b table, #content table #workArea #step3b table {
     background-color: none;
     padding: 0;
   }
-  #content table #workArea #step1b .sphere, #content table #workArea #step2b .sphere {
+  #content table #workArea #step1b .sphere, #content table #workArea #step2b .sphere, #content table #workArea #step3b .sphere {
     width: 115px;
     height: 115px;
   }
-  #content table #workArea #step1b .sphere.picker img, #content table #workArea #step2b .sphere.picker img {
+  #content table #workArea #step1b .sphere.picker img, #content table #workArea #step2b .sphere.picker img, #content table #workArea #step3b .sphere.picker img {
     margin-top: 20px;
     height: 69px;
     weight: 69px;
   }
-  #content table #workArea #step1b p.title, #content table #workArea #step2b p.title {
+  #content table #workArea #step1b p.title, #content table #workArea #step2b p.title, #content table #workArea #step3b p.title {
     margin-bottom: 20px;
     font-size: 25px;
     color: black;
   }
-  #content table #workArea #step1b .buttonContinue img, #content table #workArea #step2b .buttonContinue img {
+  #content table #workArea #step1b .buttonContinue img, #content table #workArea #step2b .buttonContinue img, #content table #workArea #step3b .buttonContinue img {
     width: 283px;
   }
-  #content table #workArea #step1c, #content table #workArea #step2c {
+  #content table #workArea #step1c, #content table #workArea #step2c, #content table #workArea #step3c {
     margin: 0 auto;
     background-color: none;
     padding: 0;
   }
-  #content table #workArea #step1c p.title, #content table #workArea #step2c p.title {
+  #content table #workArea #step1c p.title, #content table #workArea #step2c p.title, #content table #workArea #step3c p.title {
     text-align: center;
     font-size: 25px;
     margin: 40px auto;
   }
-  #content table #workArea #step1c .iconDanger img, #content table #workArea #step2c .iconDanger img {
+  #content table #workArea #step1c .iconDanger img, #content table #workArea #step2c .iconDanger img, #content table #workArea #step3c .iconDanger img {
     display: block;
     margin: 0 auto;
     height: 160px;
     width: auto;
   }
-  #content table #workArea #step1c .buttonOk img, #content table #workArea #step2c .buttonOk img {
+  #content table #workArea #step1c .buttonOk img, #content table #workArea #step2c .buttonOk img, #content table #workArea #step3c .buttonOk img {
     display: block;
     margin: 0 auto;
     height: 71px;
@@ -444,6 +519,27 @@ footer table td.col1 p, footer table td.col3 p {
     margin-top: -70px;
     height: 69px;
     weight: 69px;
+  }
+  #content table #workArea #step3b p.checkboxLine {
+    display: block;
+  }
+  #content table #workArea #step3b p.checkboxLineMobile {
+    display: none;
+  }
+  #content table #workArea #step3b .animal {
+    font-size: 60px;
+    margin-left: 30px;
+  }
+  #content table #workArea #step3b iframe {
+    display: block;
+    padding: 10px 0 0 10px;
+    margin: 20px auto;
+    width: 600px;
+    height: 250px;
+  }
+  #content table #workArea #step3b .buttonAccept img {
+    width: 494px;
+    margin: 20px auto;
   }
   footer table td.col2 {
     width: 40%;

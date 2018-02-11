@@ -1,9 +1,66 @@
+$blue: #006fc0
+$yellow: #ffff01
+$red: #fe0000
+$black: black
+$green: #00af50
+$orange: #ff6600 
+$purple: #7030a2
+$turquoise: #01ffff 
+
 body
   background-color: #eeeef3
 
 @font-face 
   font-family: 'animals';
   src: url('/fonts/animals.eot');
+
+.blue 
+  color: $blue
+
+.yellow 
+  color: $yellow
+
+.red 
+  color: $red
+
+.black 
+  color: black    
+
+.green 
+  color: $green
+
+.orange 
+  color: $orange  
+
+.purple 
+  color: $purple 
+
+.turquoise
+  color: $turquoise 
+
+.bg-blue 
+  background-color: $blue
+
+.bg-yellow 
+  background-color: $yellow
+
+.bg-red 
+  background-color: $red
+
+.bg-black 
+  background-color: black    
+
+.bg-green 
+  background-color: $green
+
+.bg-orange 
+  background-color: $orange  
+
+.bg-purple 
+  background-color: $purple 
+
+.bg-turquoise
+  background-color: $turquoise   
 
 header
   // display: block;
@@ -82,30 +139,6 @@ header
 #banner6, #banner7
   margin: 10px 0
 
-.bg-blue 
-  background-color: #006fc0
-
-.bg-yellow 
-  background-color: #ffff01
-
-.bg-red 
-  background-color: #fe0000
-
-.bg-black 
-  background-color: black    
-
-.bg-green 
-  background-color: #00af50
-
-.bg-orange 
-  background-color: #ff6600   
-
-.bg-purple 
-  background-color: #7030a2   
-
-.bg-turquoise
-  background-color: #01ffff 
-
 .sphere 
   // height: 115px
   // width: 115px
@@ -175,7 +208,7 @@ header
             &.visible
               display: block
 
-      #step1a, #step2a
+      #step1a, #step2a, #step3a
         display: none
 
         .progressBar
@@ -203,7 +236,7 @@ header
             width: 300px !important
             height: 30px !important
 
-      #step1b, #step2b
+      #step1b, #step2b, #step3b
         display: none
         margin: 0 auto
 
@@ -238,7 +271,7 @@ header
             width: 180px
             margin: 20px auto
 
-      #step1c, #step2c
+      #step1c, #step2c, #step3c
         display: none
         margin: 0 auto
         background-color: white
@@ -297,6 +330,45 @@ header
         display: none
         margin: 0 auto
         padding: 5px 0                    
+
+      #step3b    
+        p
+          &.title
+            vertical-align: middle
+            font-weight: bold
+
+          &.checkboxLine, &.checkboxLineMobile
+            text-align: center
+            font-family: Arial, Helvetica, sans-serif
+            margin: 0 auto
+
+          &.checkboxLine
+            display: none
+          
+          &.checkboxLineMobile
+            display: block
+            font-size: 14px   
+            margin-bottom: 25px
+
+        .animal 
+          font-size: 40px
+          vertical-align: middle
+          margin-left: 20px
+
+        iframe
+          display: none
+          padding: 10px 0 0 10px
+          margin: 20px auto
+          border-width: 1px
+          width: 300px
+          height: 150px     
+        
+        .buttonAccept             
+          img 
+            display: block
+            width: 250px
+            height: auto
+            margin: 10px auto          
 
 footer
   p
@@ -357,13 +429,13 @@ footer
           p
             font-size: 16px
 
-        #step1a, #step2a
+        #step1a, #step2a, #step3a
           .progressBar
             p
               &.title
                 display: block
 
-        #step1b, #step2b
+        #step1b, #step2b, #step3b
           table
             background-color: none
             padding: 0
@@ -388,7 +460,7 @@ footer
             img 
               width: 283px     
 
-        #step1c, #step2c
+        #step1c, #step2c, #step3c
           // display: none
           // display: block
           margin: 0 auto    
@@ -426,7 +498,31 @@ footer
               img
                 margin-top: -70px   
                 height: 69px
-                weight: 69px                          
+                weight: 69px  
+
+        #step3b    
+          p
+            &.checkboxLine
+              display: block
+          
+            &.checkboxLineMobile
+              display: none
+          
+          .animal 
+            font-size: 60px
+            margin-left: 30px
+
+          iframe
+            display: block
+            padding: 10px 0 0 10px
+            margin: 20px auto
+            width: 600px
+            height: 250px
+
+          .buttonAccept             
+            img 
+              width: 494px
+              margin: 20px auto                                          
 
   footer
     table

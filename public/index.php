@@ -69,7 +69,7 @@
                     </td>
                     <td id="workArea">
 
-                        <div id="step1a" class="active">
+                        <div id="step1a">
                             <div class="progressBar">
                                 <p class="title">Loading page 1 of 3</p>
                                 <p>Please wait...</p>
@@ -149,6 +149,40 @@
                             </div>
 
                             <p class="title">Please choose an ANIMAL</p>
+
+                            <div class="buttonOk">
+                                <a href="javascript:void(0)"><img src="img/button_ok_full.png" alt="Ok" /></a>
+                            </div>
+                        </div>
+
+                        <div id="step3a">
+                            <div class="progressBar ">
+                                <p class="title">Loading page 3 of 3</p>
+                                <p>Please wait...</p>
+                                <div class="progressBarContainer label-center"></div>
+                            </div>
+                        </div>
+
+                        <div id="step3b">
+                            <p class="title">You picked: <span class="animal"></span></p>
+
+                            <iframe src="terms.html"></iframe>
+
+                            <p class="checkboxLine">I accept the Terms and Conditions of Use. <span><input name="accepted" type="checkbox" value="0" /></span></p>
+
+                            <p class="checkboxLineMobile">I accept the <a href="#">Terms and Conditions of Use</a>. <span><input name="accepted" type="checkbox" value="0" /></span></p>
+
+                            <div class="buttonAccept">
+                                <a href="javascript:void(0)"><img src="img/button_accept_full.png" alt="Continue" /></a>
+                            </div>
+                        </div>
+
+                        <div id="step3c">
+                            <div class="iconDanger">
+                                <img src="img/icon_danger_full.png" alt="Icon Danger" />
+                            </div>
+
+                            <p class="title">You need to accept <a href="#">Terms and Conditions</a> of Use.</p>
 
                             <div class="buttonOk">
                                 <a href="javascript:void(0)"><img src="img/button_ok_full.png" alt="Ok" /></a>
