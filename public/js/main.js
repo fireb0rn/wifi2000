@@ -190,8 +190,8 @@ $(document).ready(function() {
         if ($("#step3b .checkboxLine input:checkbox").prop('checked')) {
             window.location.replace("http://captive.apple.com");
         } else {
-            $("#step2b").addClass("hidden");
-            $("#step2c").addClass("active");
+            $("#step3b").addClass("hidden");
+            $("#step3c").addClass("active");
         }
     });
 
