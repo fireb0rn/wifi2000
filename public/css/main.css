@@ -96,11 +96,12 @@ header table .textCol {
 }
 
 header table #iconInfo {
-  width: 15%;
   text-align: right;
 }
 
 header table #iconInfo img {
+  display: block;
+  margin: 0 0 0 auto;
   max-width: 100%;
   min-width: 37px;
 }

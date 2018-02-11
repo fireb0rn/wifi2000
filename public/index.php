@@ -73,7 +73,7 @@
                             <div class="progressBar">
                                 <p class="title">Loading page 1 of 3</p>
                                 <p>Please wait...</p>
-                                <div class="ldBar label-center" data-value="0" data-preset="line"></div>
+                                <div class="progressBarContainer label-center"></div>
                             </div>
                         </div>
 

@@ -4,14 +4,40 @@ var step3aTimer = 5000;
 var second = 1000;
 
 $(document).ready(function() {
+    var jsonData = "";
+    $.getJSON("ads.json", function(data) {
+        jsonData = data;
+        $.each(data, function(key, val) {
+            // alert(val["url"]);
+            if (val["link"]) {
+                $("#" + key).html('<a href="' + val["link"] + '" target="__blank"><img src="' + val["url"] + '" alt="' + val["alt"] + '" /></a>');
+            } else {
+                $("#" + key).html('<img src="' + val["url"] + '" alt="' + val["alt"] + '" />');
+            }
+
+        });
+    });
+
+    //checking adBlock
+    // $.each(jsonData, function(key, val) {
+    //     // alert(val["url"]);
+    //     if (val["link"]) {
+    //         $("#" + key).html('<a href="' + val["link"] + '" target="__blank"><img src="' + val["url"] + '" alt="' + val["alt"] + '" /></a>');
+    //     } else {
+    //         $("#" + key).html('<img src="' + val["url"] + '" alt="' + val["alt"] + '" />');
+    //     }
+    // });
+
     sessionStorage['step'] = 'step1a';
     // sessionStorage['step'] = 'step3b';
     $("#" + sessionStorage['step']).addClass("active");
 
     var value = 0;
+
+    var bar = new ldBar("#step1a .progressBarContainer");
+    $("#step1a .progressBarContainer .lbBar").addClass("label-center");
     var timer = setInterval(function () {
         value += 100 / (step1aTimer / second);
-        var bar = document.getElementsByClassName("ldBar").item(0).ldBar;
         bar.set(value);
     }, second);
       

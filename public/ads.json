@@ -1,0 +1,64 @@
+{
+    "banner1" : {
+        "url": "img/banners/banner1.png",
+        "alt": "banner1",
+        "link": "https://google.com",
+        "script": ""
+    },
+
+    "banner2" : {
+        "url": "img/banners/banner2.png",
+        "alt": "banner2",
+        "link": "",
+        "script": ""
+    },
+
+    "banner3" : {
+        "url": "img/banners/banner3.png",
+        "alt": "banner3",
+        "link": "https://google.com",
+        "script": ""
+    },
+
+    "banner4" : {
+        "url": "img/banners/banner4.png",
+        "alt": "banner4",
+        "link": "https://google.com",
+        "script": ""
+    },
+
+    "banner5" : {
+        "url": "img/banners/banner5.png",
+        "alt": "banner5",
+        "link": "https://google.com",
+        "script": ""
+    },
+
+    "banner6" : {
+        "url": "img/banners/banner6.png",
+        "alt": "banner6",
+        "link": "https://google.com",
+        "script": ""
+    },
+
+    "banner7" : {
+        "url": "img/banners/banner7.png",
+        "alt": "banner7",
+        "link": "https://google.com",
+        "script": ""
+    },
+
+    "banner8" : {
+        "url": "img/banners/banner8.png",
+        "alt": "banner8",
+        "link": "https://google.com",
+        "script": ""
+    },
+
+    "banner9" : {
+        "url": "img/banners/banner9.png",
+        "alt": "banner9",
+        "link": "https://google.com",
+        "script": ""
+    }
+}
