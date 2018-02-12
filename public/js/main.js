@@ -5,7 +5,7 @@ var second = 1000;
 
 $(document).ready(function() {
     var jsonData = "";
-    $.getJSON("ads.json", function(data) {
+    $.getJSON("config.json", function(data) {
         jsonData = data;
         $.each(data, function(key, val) {
             // alert(val["url"]);
